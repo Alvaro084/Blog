@@ -1,0 +1,2 @@
+# Blog
+Projek blog pribadi

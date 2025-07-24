@@ -20,3 +20,18 @@ document.addEventListener("DOMContentLoaded", function () {
     localStorage.setItem("theme", isLight ? "light" : "dark");
   });
 });
+
+// Buat elemen tombol WhatsApp
+const waButton = document.createElement('a');
+waButton.href = 'https://wa.me/6282181440252'; // Ganti dengan nomor kamu
+waButton.className = 'whatsapp-float';
+waButton.target = '_blank';
+waButton.setAttribute('aria-label', 'Hubungi via WhatsApp');
+
+// Tambahkan icon ke dalam tombol
+const waImg = document.createElement('img');
+waImg.src = 'C:\alvaro\blogku\images\wa.jpeg'; // Pastikan file ini ada di direktori yg benar
+waImg.alt = 'WhatsApp';
+
+waButton.appendChild(waImg);
+document.body.appendChild(waButton);

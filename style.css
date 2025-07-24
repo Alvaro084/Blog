@@ -479,3 +479,22 @@ body.light-mode .contact-form input[type="date"]::-webkit-calendar-picker-indica
     padding: 0.75rem;
   }
 }
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.whatsapp-float img {
+  width: 55px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.whatsapp-float img:hover {
+  transform: scale(1.1);
+}

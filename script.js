@@ -30,7 +30,7 @@ waButton.setAttribute('aria-label', 'Hubungi via WhatsApp');
 
 // Tambahkan icon ke dalam tombol
 const waImg = document.createElement('img');
-waImg.src = '/images/wa.jpeg'; // Pastikan file ini ada di direktori yg benar
+waImg.src = '/images/wa.png'; // Pastikan file ini ada di direktori yg benar
 waImg.alt = 'WhatsApp';
 
 waButton.appendChild(waImg);
